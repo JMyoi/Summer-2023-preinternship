@@ -1,11 +1,11 @@
 .j-desc{
     display:flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    flex-direction: row;
 }
 .j-desc__company-image{
     width:100px;
     height:100px;
+    margin: 10px 10px;
 }
 
 h1{
@@ -28,6 +28,8 @@ h1{
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-template-rows: 200px 200px 200px;
     margin: 0 3em 2em;
+    place-content: center space-between;
+    gap: 30px;
 }
   .grid-item {
     color: white;
@@ -35,6 +37,8 @@ h1{
     padding: 1rem;
     text-align: center;
     border: 2px solid black;
+    display:flex;
+    
   }
   .item-1 {
     background-color: #b4bf35;
